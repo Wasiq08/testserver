@@ -1,15 +1,16 @@
 {
-  "name": "notification-server",
+  "name": "push-server",
   "version": "1.0.0",
-  "description": "push notification server for linkagoal.com",
+  "description": "",
   "main": "server.js",
   "dependencies": {
-    "chalk": "^1.1.3",
-    "body-parser": "^1.15.1",
     "bluebird": "^3.4.0",
+    "chalk": "^1.1.3",
     "express": "^4.13.4",
-    "pushwoosh": "^0.0.1",
+    "mysql": "^2.11.1",
+    "body-parser": "^1.15.1",
     "response-time": "^2.3.1",
+    "pushwoosh": "^0.0.1",
     "sequelize": "^3.23.3",
     "validate.js": "^0.10.0"
   },
@@ -18,6 +19,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "skill orbit",
+  "author": "wasiq",
   "license": "ISC"
 }
